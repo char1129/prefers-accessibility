@@ -62,28 +62,24 @@ html {
 }
 /* stylelint-disable media-feature-name-no-unknown */
 
-/**
- * =============
- @media (prefers-reduced-motion) {
-   img {
-     animation: none;
-   }
+@media (prefers-reduced-motion) {
 
- }
+  img {
+    animation: none;
+  }
 
- @media (prefers-color-scheme) {
+}
 
-   body {
-     background-color: #222;
-   }
+@media (prefers-color-scheme) {
 
-   .banner {
-   opacity: 0.5;
-   }
+  body {
+    background-color: #222;
+  }
 
- }
+  .banner {
+    opacity: .5;
+  }
 
- * =============
- */
+}
 
 /* stylelint-enable */
